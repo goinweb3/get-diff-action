@@ -12,7 +12,7 @@ inputs:
     required: false
   DOT:
     description: Dot.
-    default: '...'
+    default: "..."
     required: false
   BASE:
     description: base
@@ -22,7 +22,7 @@ inputs:
     required: false
   DIFF_FILTER:
     description: Diff filter.
-    default: 'AMRC'
+    default: "AMRC"
     required: false
   FORMAT:
     description: Output format (text or json)
@@ -33,7 +33,7 @@ inputs:
     required: false
   SEPARATOR:
     description: Separator of diffs.
-    default: ' '
+    default: " "
     required: false
   PATTERNS:
     description: Target file pattern.
@@ -103,22 +103,22 @@ inputs:
     required: false
   COUNT_DEFAULT:
     description: Default value (count).
-    default: '0'
+    default: "0"
     required: false
   GET_FILE_DIFF:
     description: Whether to get file diff.
     required: false
   INSERTIONS_DEFAULT:
     description: Default value (insertions).
-    default: '0'
+    default: "0"
     required: false
   DELETIONS_DEFAULT:
     description: Default value (deletions).
-    default: '0'
+    default: "0"
     required: false
   LINES_DEFAULT:
     description: Default value (lines).
-    default: '0'
+    default: "0"
     required: false
   CHECK_ONLY_COMMIT_WHEN_DRAFT:
     description: Whether to check only commits when drafting.
@@ -143,9 +143,9 @@ outputs:
 
 branding:
   # https://feathericons.com/
-  icon: 'file'
-  color: 'orange'
+  icon: "file"
+  color: "orange"
 
 runs:
-  using: node16
+  using: node20
   main: lib/main.js
